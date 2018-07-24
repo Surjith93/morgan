@@ -33,7 +33,7 @@
   function alertsuccess()
    {
      document.getElementById('successmsg').innerHTML+="<div class='alert alert-success' role='alert'><strong>Well done!</strong> login success.</div>";
-     document.getElementById('successmsg').innerHTML+="<button class='btn btn-default' type='submit' onClick='home.php'>Cllick here to view your profile </button>";
+     document.getElementById('successmsg').innerHTML+="<a href='home.php'><button class='btn btn-default' type='submit'>Click here to view your profile </button></a>";
    }
   function alertfailed()
    {
