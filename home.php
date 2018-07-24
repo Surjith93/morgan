@@ -10,7 +10,7 @@
           <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
           <!-- Optional theme -->
           <link rel="stylesheet" href="css/bootstrap-theme.min.css"  crossorigin="anonymous">
-          <link rel="stylesheet" type="text/css" href="custom.css">
+          <link rel="stylesheet" type="text/css" href="css/custom.css">
           <!-- Latest compiled and minified JavaScript -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <script src="js/bootstrap.min.js" crossorigin="anonymous"></script>
@@ -75,7 +75,7 @@
   <div class="container pad-top">  
     <div class="row wid">
       <div class="span2 ">
-        <p><button class="btn btn-primary btn-block height"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> New Entry</button></p>
+        <p><a href="newentry.php"><button class="btn btn-primary btn-block height"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> New Entry</button></a></p>
         <p><button class="btn btn-primary btn-block height"><span class="
 glyphicon glyphicon-paperclip" aria-hidden="true"></span> Get Details</button></p>
       </div>

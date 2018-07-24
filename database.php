@@ -1,9 +1,6 @@
-<?php
-$username = "root";
-$password = "";
-$hostname = ""; 
 
-//connection to the database
+
+<?php
 $con = mysqli_connect("localhost","root","","morgan");
 if (mysqli_connect_errno())
   {
