@@ -21,7 +21,7 @@
 </nav>
 <div class="container text-center ">
 <div class="jumbotron">
-<h2 class="newregheader">Registration Form for new Employees</h2>
+<h2 class="newregheader" id="regheader">Registration Form for new Employees</h2>
 <form class="padtop" action="insert.php" method="post">
   <div class="form-group">
     <label class="newreg">Enter Name</label>
@@ -41,4 +41,15 @@
 </div>
 </body>
 </html>
+
+<script type="text/javascript">
+  function regsuccess()
+   {
+     document.getElementById('regheader').innerHTML+="<div class='alert alert-success' role='alert'>Successfully added.....</div>";
+   }
+  function regfailed()
+   {
+     document.getElementById('regheader').innerHTML+="<div class='alert alert-danger' role='alert'>Sorry!!!!something went wrong....</div>";
+   }
+</script>
 

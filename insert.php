@@ -1,7 +1,8 @@
 
-<?php include('newentry.php')?>
+
 <?php
-include("database.php");
+
+ include('newentry.php');
  $regname=$_POST['newregname'];
  $regtitle=$_POST['newregtitle'];
  $regemail=$_POST['newregemail'];
@@ -10,12 +11,12 @@ include("database.php");
     
     if(mysqli_query($con,$view))
       {
-        echo "Records added successfully.";
-        header('Location: newentry.php') ;
+        echo "<script>regsuccess();</script>";
+        //header('Location: newentry.php') ;
 	  } 
     else
       {
-        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+        echo "ERROR: Could not able to execute $sql. " . mysqli_error($con);
       }
 ?>
 
