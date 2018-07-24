@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,8 +77,8 @@
     <div class="row wid">
       <div class="span2 ">
         <p><a href="newentry.php"><button class="btn btn-primary btn-block height"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> New Entry</button></a></p>
-        <p><button class="btn btn-primary btn-block height"><span class="
-glyphicon glyphicon-paperclip" aria-hidden="true"></span> Get Details</button></p>
+        <p><a href="view_details.php"><button class="btn btn-primary btn-block height"><span class="
+glyphicon glyphicon-paperclip" aria-hidden="true"></span> Get Details</button></a></p>
       </div>
     </div>
   </div>   
