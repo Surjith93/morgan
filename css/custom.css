@@ -27,7 +27,7 @@
 
 
 
-/*angi----------------------*/
+/*----------------------*/
 .padtop .form-control{
 	width:30% !important;
 	margin: 0 auto;
@@ -42,5 +42,8 @@ color: #ff0080 !important;
 .newregheader{
 	font-family: timesnewroman;
 	color: #ff0080;
+}
+.jumbotron h1{
+	color: 	#ff0080 !important;
 }
 

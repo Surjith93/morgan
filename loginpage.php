@@ -10,7 +10,7 @@
  <div class="container text-center ">
   <div class="jumbotron">
     <h1>Welcome to Morgan Mckinley</h1>
-      <p id="successmsg">Please login to our website</p>
+      <p id="successmsg">Please login to our website</p.>
         <form class="padtop" method="post" action="" id="contact-form">
           <div class="form-group">
             <label for="exampleInputEmail1">User Name</label>
@@ -27,11 +27,6 @@
 </body>   
 </html>
 <script type="text/javascript">
-  function alertsuccess()
-   {
-     document.getElementById('successmsg').innerHTML+="<div class='alert alert-success' role='alert'><strong>Well done!</strong> login success.</div>";
-     document.getElementById('successmsg').innerHTML+="<a href='home.php'><button class='btn btn-default' type='submit'>Click here to view your profile </button></a>";
-   }
   function alertfailed()
    {
      document.getElementById('successmsg').innerHTML+="<div class='alert alert-danger' role='alert'>Please enter valid Username and Password!!!</div>";
@@ -47,7 +42,7 @@
       $row=mysqli_fetch_array($result);
       if($username==$row[1]&&$pswd==$row[2])
         {
-          echo "<script>alertsuccess();</script>";
+          header('location:home.php');
         }
       else
         {

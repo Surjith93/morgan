@@ -39,18 +39,15 @@
  </div>
 </body>
 </html>
-
 <script type="text/javascript">
  function dbfail()
    {
      document.getElementById('regheader').innerHTML+="<div class='alert alert-danger' role='alert'>Sorry!!!!EmailId already exists.... </div>";
    }
-     function dbsuccess()
+ function dbsuccess()
    {
      document.getElementById('regheader').innerHTML+="<div class='alert alert-success' role='alert'>Successfully added!!!!!!!!</div>";
-
    }
-
 </script>
 
 

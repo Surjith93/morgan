@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +30,6 @@
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            
           <ul class="nav navbar-nav navbar-right">
             <li><a href="loginpage.php"><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span></a></li>
           </ul>
@@ -46,7 +44,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
       </ol>
-          <!-- Wrapper for slides -->
+    <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="morgan1.jpg" alt="...">
@@ -78,7 +76,7 @@
       <div class="span2 ">
         <p><a href="newentry.php"><button class="btn btn-primary btn-block height"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> New Entry</button></a></p>
         <p><a href="view_details.php"><button class="btn btn-primary btn-block height"><span class="
-glyphicon glyphicon-paperclip" aria-hidden="true"></span> Get Details</button></a></p>
+        glyphicon glyphicon-paperclip" aria-hidden="true"></span> Get Details</button></a></p>
       </div>
     </div>
   </div>   
