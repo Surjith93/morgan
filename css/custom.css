@@ -14,11 +14,20 @@
 .glyphicon-log-out {
     font-size: 20px;
 }
+.twid{
+	width:900px !important;
+	margin: 0 auto;
+
+}
+.twid th td{
+	text-align: center !important;
+}
+
 
 
 
 /*angi----------------------*/
-.form-control{
+.padtop .form-control{
 	width:30% !important;
 	margin: 0 auto;
 }
