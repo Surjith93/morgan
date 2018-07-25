@@ -42,14 +42,10 @@
     </nav>
     <div class="container">
       <div class="row" class="">
-<<<<<<< HEAD
-        <table class="table twid" id="viewData">
-          <tr >
-=======
 
+        
         <table class="table table-bordered twid" id="viewData">
           <tr class="success">
->>>>>>> 54493593954c0f631d982300893e180966002526
             <th>No</th>
             <th>Name</th>
             <th>JobTitle</th>
