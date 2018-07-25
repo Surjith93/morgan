@@ -48,6 +48,7 @@ function editDelete(i){
     $result = mysqli_query($con,$qry)
                 or die("Error: ".mysqli_error());
     echo "<script>document.getElementById('deleteBtn').style.visibility='hidden';window.location='firstpage.php';</script>";
+     header('location:view_details.php');
     }
 
 ?>
