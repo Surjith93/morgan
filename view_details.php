@@ -42,7 +42,6 @@
     </nav>
     <div class="container">
       <div class="row" class="">
-
         <table class="table twid" id="viewData">
           <tr >
             <th>No</th>
