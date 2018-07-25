@@ -64,7 +64,7 @@
             <h4 class="modal-title" id="myModalLabel">Add Student Information</h4>
           </div>
           <div class="modal-body">
-            <form method="post" id="firstForm" onsubmit="return validateForm()">
+            <form method="post" id="firstForm" onsubmit="return validateForm()" >
               <div class="form-group">
                 <input type="hidden" class="form-control" id="editId" placeholder="Name" name='editId'>
                 <label for="exampleInputEmail1">Name</label>
@@ -80,6 +80,7 @@
               </div>
               <button type="submit" class="btn btn-default" name="submits" id="submitBtn" >Submit</button>
               <button type="submit" class="btn btn-default" name="delete" id="deleteBtn" style="visibility:hidden" >Delete</button>
+              <div id="myform"></div>
             </form>
           </div>
           <div class="modal-footer">

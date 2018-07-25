@@ -29,6 +29,22 @@ function editDelete(i){
     document.getElementById('submitBtn').name="editSubmit";
     document.getElementById('deleteBtn').style.visibility="visible";
 }
+function validateForm() {
+    if (document.forms["firstForm"]["name"].value == "") {
+        document.getElementById('myform').innerHTML="<p class='alert alert-danger' role='alert'>Enter Nme !</p>";
+        return false;
+    }
+    if (document.forms["firstForm"]["jobtitle"].value == "") {
+        document.getElementById('myform').innerHTML="<p class='alert alert-danger' role='alert'>Enter Jobtitle !</p>";
+        return false;
+    }
+    if (document.forms["firstForm"]["email"].value == "") {
+        document.getElementById('myform').innerHTML="<p class='alert alert-danger' role='alert'>Enter Email !</p>";
+        return false;
+        
+    }
+
+}
 </script>
 <?php
  if(isset($_POST['editSubmit'])){
