@@ -1,8 +1,7 @@
 <script type="text/javascript">
 function viewdata(){
-    
     <?php 
-    	$view="Select * from emp_details";
+    	$view="Select * from emp_details order by id";
         $result=mysqli_query($con,$view);
         $p=0;
         while($row=mysqli_fetch_array($result)){
@@ -21,7 +20,6 @@ function viewdata(){
         " data-toggle='modal' onclick='editDelete(this.value)'>Edit/Delete</button></td></tr>";
     })
   }
-
 function editDelete(i){
     var res = i.split(",");
     document.getElementById('editId').value=res[0];
@@ -32,17 +30,17 @@ function editDelete(i){
     document.getElementById('deleteBtn').style.visibility="visible";
 }
 </script>
-
 <?php
  if(isset($_POST['editSubmit'])){
       $i=$_POST['editId'];
       $name=$_POST['name'];
       $jobtitle=$_POST['jobtitle'];
       $email=$_POST['email'];
-      $qry="UPDATE emp_details SET name='$name',jobtitle='$jobtitle',email=$email WHERE id=$i";
+      $qry="UPDATE emp_details SET name='$name',jobtitle='$jobtitle',email='$email' WHERE id=$i";
       $result = mysqli_query($con,$qry)
                 or die("Error: ".mysqli_error());
-      echo "<script>document.getElementById('submitBtn').name='submits'; document.getElementById('deleteBtn').style.visibility='hidden';window.location='firstpage.php';</script>";
+      header('location:view_details.php');
+      
     }
     if(isset($_POST['delete'])){
     $i=$_POST['editId'];
